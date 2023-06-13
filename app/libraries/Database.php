@@ -20,7 +20,7 @@ class Database
 
         } catch(PDOException $e) {
             echo $e->getMessage();
-        }
+        } 
     }
 
     public function query($sql)
