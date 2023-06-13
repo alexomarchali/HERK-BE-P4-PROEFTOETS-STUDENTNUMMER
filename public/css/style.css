@@ -16,3 +16,7 @@ tr > td {
     padding: 1%;
     font-size: 18px;
 }
+
+table{
+    border: solid 5px darkred;
+}
