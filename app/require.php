@@ -4,4 +4,4 @@
     require_once 'libraries/Database.php'; 
     require_once 'config/config.php';
 
-    $init = new Core();
+    $init = new Core(); 
