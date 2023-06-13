@@ -18,5 +18,10 @@ tr > td {
 }
 
 table{
-    border: solid 5px darkred;
+    border: solid darkred;
+    border: width 4px;
+}
+
+th{
+    background-color: beige;
 }
