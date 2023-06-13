@@ -65,7 +65,7 @@ CREATE TABLE IF NOT EXISTS `LeerlingPerLesPakket` (
   FOREIGN KEY (`LesPakketId`) REFERENCES `LesPakket`(`Id`),
   FOREIGN KEY (`LeerlingId`) REFERENCES `Leerling`(`Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
+ 
 INSERT INTO LeerlingPerLesPakket
 (
      LesPakketId
